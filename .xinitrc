@@ -11,5 +11,7 @@ sleep 2 && {
  picom --backend xrender & 
 } &
 
+xset r rate 300 40
+
 # start i3
 i3
