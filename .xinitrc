@@ -4,7 +4,7 @@ dbus-update-activation-environment --all
 sleep 2 && { 
  vmware-user
  sleep 1
- ~/repos/dotfiles/get-wallpaper.sh
+ ~/repos/scripts/get-wallpaper.sh
  gnome-terminal --title="metask" -- zsh -c "while true; do tmux; done" &
  greenclip daemon &
  JoplinDesktop.AppImage &  
