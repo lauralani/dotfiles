@@ -8,6 +8,8 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 autoload -U select-word-style
 select-word-style bash
 
+setopt auto_cd
+
 prompt pure
 
 HISTFILE=~/.zsh_history
